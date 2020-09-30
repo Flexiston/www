@@ -24,7 +24,7 @@
     <meta name="x5-page-mode" content="app">
     <!--QQ应用模式-->
     <title>简单搜索</title>
-    <link href="https://cdn.jsdelivr.net/gh/Flexiston/www/sou/style.css" rel="stylesheet">
+    <link href="sou/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://at.alicdn.com/t/font_1230786_gdvd1b4wlz.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/Flexiston/www@latest/sou.js"></script>
@@ -115,9 +115,9 @@
             <li><a rel="nofollow" href="https://www.swiper.com.cn/" target="_blank"><i class="iconfont icon-S" style="color:#065fe3;"></i>Swiper</a></li>
         </ul>
     </div>
-   <div id="tp-weather-widget" class="mywth"></div>
-   <script>WIDGET = {CONFIG:{"modules":"10234","background":5,"tmpColor":"4A4A4A","tmpSize":"14","cityColor":"4A4A4A","citySize":"14","aqiSize":"14","weatherIconSize":"20","alertIconSize":"16","padding":"0px","shadow":"0","language":"auto","borderRadius":5,"fixed":"false","vertical":"middle","horizontal":"left","key":"f60588bd99d94495b907562a23e05666"}}</script>
-   <script src="https://widget.heweather.net/simple/static/js/he-simple-common.js?v=1.1"></script>
+    <div class="mywth" style="width:200px"><div id="he-plugin-simple" style="position: relative;"></div></div>
+    <script>WIDGET = {CONFIG:{"modules":"10234","background":5,"tmpColor":"4A4A4A","tmpSize":"14","cityColor":"4A4A4A","citySize":"14","aqiSize":"14","weatherIconSize":"20","alertIconSize":"16","padding":"0px","shadow":"0","language":"auto","borderRadius":5,"fixed":"false","vertical":"middle","horizontal":"left","key":"f60588bd99d94495b907562a23e05666"}}</script>
+    <script src="https://widget.heweather.net/simple/static/js/he-simple-common.js?v=1.1"></script>
 
     <div id="content">
         <div class="con">
@@ -132,7 +132,15 @@
                 </ul>
             </div>
         </div>
-        <div class="foot">© 2016-2020 by <a href="https://blog.5iux.cn/">5iux</a>. All rights reserved. <a href="https://flesx.cn">Flexiston</a> 仅做转载</div>
+        <div class="foot" style="height: 40px;">
+            <a href="https://blog.flesx.cn/" style="color: #777;">博客</a> | 
+            <a href="https://nav.5iux.cn/" style="color: #777;">导航</a> | 
+            <a href="https://flesx.cn/" style="color: #777;">主页</a> | 
+            <a href="https://lab.flesx.cn/" style="color: #777;">实验室</a> | 
+            <a href="https://github.com/Flexiston" style="color: #777;">Github</a>
+            <br>
+            © 2016-2020 by <a href="https://blog.5iux.cn/">5iux</a> . All rights reserved. <a href="https://flesx.cn">Flexiston</a> 仅做转载
+        </div>
     </div>
     <!--
 作者:D.Young
